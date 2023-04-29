@@ -23,7 +23,7 @@ struct Q_PropApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            Main()
+            LoginView()
                 .environmentObject(oddsFetcher)
         }
     }
